@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Collections books</title>
+</head>
+
+<body>
+  <section class="main-bookList">
+    <div class="container">
+      <h1 class="container__title">Collections Books</h1>
+      <form id='form' class='container__form' name='form'>
+        <input class=" container__search" id="author" type="text" placeholder="Author/s">
+        <input class="container__search" id="title" type="text" placeholder="Title">
+        <button id="btn" type='submit' class="container__btn">Search</button>
+
+        <label class="container__input-type">Print Type
+          <select name="print-type" class="print_type" id="">
+            <option class="option" value="all">All</option>
+            <option class="option" value="books">Books</option>
+            <option class="option" value="magazines">Magazines</option>
+          </select>
+        </label>
+      </form>
+
+      <div class="books-list">
+      </div>
+    </div>
+
+  </section>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

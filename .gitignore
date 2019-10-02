@@ -1,0 +1,4 @@
+#ignore folder sass
+sass
+#ignore files .css.map
+*.css.map
