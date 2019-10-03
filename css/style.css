@@ -231,8 +231,8 @@ a {
   border-radius: 4px;
   padding: 20px 0;
   margin: 20px 0 40px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#a6c7e8), color-stop(50%, #218cde), to(#afcde9));
-  background: linear-gradient(top, #a6c7e8 0%, #218cde 50%, #afcde9 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a6c7e8), color-stop(50%, #218cde), to(#afcde9));
+  background-image: linear-gradient(top, #a6c7e8 0%, #218cde 50%, #afcde9 100%);
   -webkit-backdrop-filter: blur(25.0973px);
           backdrop-filter: blur(25.0973px);
 }
@@ -367,8 +367,8 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(#a6c7e8), color-stop(50%, #218cde), to(#afcde9));
-  background: linear-gradient(top, #a6c7e8 0%, #218cde 50%, #afcde9 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a6c7e8), color-stop(50%, #218cde), to(#afcde9));
+  background-image: linear-gradient(top, #a6c7e8 0%, #218cde 50%, #afcde9 100%);
   -webkit-backdrop-filter: blur(25.0973px);
           backdrop-filter: blur(25.0973px);
   padding: 50px 0;
