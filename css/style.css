@@ -19,7 +19,7 @@ a {
 }
 
 .main-bookList {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.86%, #DF8EDB), to(rgba(0, 201, 243, 0.343552)));
   background: linear-gradient(180deg, #DF8EDB 0.86%, rgba(0, 201, 243, 0.343552) 100%);
@@ -174,12 +174,6 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   margin-left: 10px;
-}
-
-.main-book {
-  max-width: 1400px;
-  margin: 0 auto;
-  min-height: 100vh;
 }
 
 .books-list {
@@ -349,6 +343,12 @@ a {
 
 .books__btn:hover {
   background-color: gray;
+}
+
+.book-details {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .book {
