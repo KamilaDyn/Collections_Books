@@ -21,8 +21,8 @@ a {
 .main-bookList {
   max-width: 1400px;
   margin: 0 auto;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.86%, #DF8EDB), to(rgba(0, 201, 243, 0.343552)));
-  background: linear-gradient(180deg, #DF8EDB 0.86%, rgba(0, 201, 243, 0.343552) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.86%, #df8edb), to(rgba(0, 201, 243, 0.343552)));
+  background: linear-gradient(180deg, #df8edb 0.86%, rgba(0, 201, 243, 0.343552) 100%);
   -webkit-backdrop-filter: blur(25.0973px);
           backdrop-filter: blur(25.0973px);
   min-height: 100vh;
@@ -52,11 +52,17 @@ a {
 .container__title {
   color: white;
   letter-spacing: 1.5px;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 3rem;
   padding-bottom: 20px;
   padding-top: 30px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+@media (min-width: 650px) {
+  .container__title {
+    font-size: 2.5rem;
+  }
 }
 
 @media (min-width: 800px) {
